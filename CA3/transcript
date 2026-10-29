@@ -1,0 +1,1213 @@
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.tb_Hash_Generator
+# vsim -gui work.tb_Hash_Generator 
+# Start time: 20:08:12 on Dec 02,2025
+# Loading work.tb_Hash_Generator
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.Controller_rnd_gen
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.OR_2input
+# Loading work.OR_4input
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint  \
+sim:/tb_Hash_Generator/clk \
+sim:/tb_Hash_Generator/rst \
+sim:/tb_Hash_Generator/start \
+sim:/tb_Hash_Generator/message \
+sim:/tb_Hash_Generator/digest \
+sim:/tb_Hash_Generator/done
+run -all
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_Hash_Generator
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# Message Value: df01f0b7
+# 
+# Digest: 405e5ecf
+# 
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb.v(91)
+#    Time: 10345 ns  Iteration: 0  Instance: /tb_Hash_Generator
+# 1
+# Break in Module tb_Hash_Generator at C:/Users/Lenovo/Desktop/CA3/tb.v line 91
+quit -sim
+# End time: 20:20:10 on Dec 02,2025, Elapsed time: 0:11:58
+# Errors: 0, Warnings: 1
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v failed with 1 errors.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.tb_Hash_Generator_file
+# vsim -gui work.tb_Hash_Generator_file 
+# Start time: 20:24:52 on Dec 02,2025
+# Loading work.tb_Hash_Generator_file
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.OR_2input
+# Loading work.OR_4input
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+add wave -position insertpoint  \
+sim:/tb_Hash_Generator_file/clk \
+sim:/tb_Hash_Generator_file/rst \
+sim:/tb_Hash_Generator_file/start \
+sim:/tb_Hash_Generator_file/message \
+sim:/tb_Hash_Generator_file/digest \
+sim:/tb_Hash_Generator_file/done \
+sim:/tb_Hash_Generator_file/fin_msg \
+sim:/tb_Hash_Generator_file/fin_exp \
+sim:/tb_Hash_Generator_file/fout \
+sim:/tb_Hash_Generator_file/status_msg \
+sim:/tb_Hash_Generator_file/status_exp \
+sim:/tb_Hash_Generator_file/msg_from_file \
+sim:/tb_Hash_Generator_file/exp_digest \
+sim:/tb_Hash_Generator_file/test_id \
+sim:/tb_Hash_Generator_file/pass_cnt \
+sim:/tb_Hash_Generator_file/fail_cnt
+run -all
+# === Starting hash testbench with file vectors ===
+# Test 1 PASS: msg=3761eded  digest=306749d9
+# Test 2 PASS: msg=df01f0b7  digest=405e5ecf
+# Test 3 PASS: msg=275cc00b  digest=63045fab
+# Test 4 PASS: msg=ac7f8ef7  digest=6233a418
+# Test 5 PASS: msg=30d4a98b  digest=04e5b46c
+# Test 6 PASS: msg=3e7de0a7  digest=08059c8c
+# Test 7 PASS: msg=1cca231f  digest=dd261cdd
+# Test 8 PASS: msg=14dbfde5  digest=ce9797ee
+# Test 9 PASS: msg=ddbcbb86  digest=5902dab3
+# Test 10 PASS: msg=ac390aa7  digest=a0dbccae
+# Test 11 PASS: msg=9a394a17  digest=ff8585e0
+# Test 12 PASS: msg=45f8e80a  digest=055d2d23
+# Test 13 PASS: msg=73b3fad7  digest=a3390fc7
+# Test 14 PASS: msg=fe011fdd  digest=4509f57d
+# Test 15 PASS: msg=a2b38da0  digest=1b3a2b25
+# Test 16 PASS: msg=5539e441  digest=a307f5f1
+# Test 17 PASS: msg=da49e5c1  digest=5fe63e07
+# Test 18 PASS: msg=2dfc96a1  digest=d8e2e2e2
+# Test 19 PASS: msg=8c4465b2  digest=5b9d755b
+# Test 20 PASS: msg=c5178e73  digest=82756fd3
+# Test 21 PASS: msg=a61d71fe  digest=2750e48a
+# Test 22 PASS: msg=82690264  digest=f1966c11
+# Test 23 PASS: msg=f0544526  digest=8afbfbf3
+# Test 24 PASS: msg=6813da81  digest=41605f41
+# Test 25 PASS: msg=f1db4a46  digest=18fe8018
+# Test 26 PASS: msg=185a1b35  digest=13736d6d
+# Test 27 PASS: msg=031749d3  digest=d90dd129
+# Test 28 PASS: msg=3659ac4c  digest=51907b6f
+# Test 29 PASS: msg=253ac00d  digest=8f150d0d
+# Test 30 PASS: msg=e493a7d2  digest=8dd9d7a5
+# Test 31 PASS: msg=ad98a2ca  digest=60d48c8c
+# Test 32 PASS: msg=66f66097  digest=5902c672
+# Test 33 PASS: msg=f760dc3c  digest=52e1866a
+# Test 34 PASS: msg=331141c9  digest=a8401910
+# Test 35 PASS: msg=901a206b  digest=fb7f7d41
+# Test 36 PASS: msg=ed5f25f2  digest=3bb2ac43
+# Test 37 PASS: msg=fc981fa1  digest=44eebab2
+# Test 38 PASS: msg=4d9bc43f  digest=b1e2dbc7
+# Test 39 PASS: msg=b0144d28  digest=07423c2f
+# Test 40 PASS: msg=0ef1eb2a  digest=21593e7b
+# Test 41 PASS: msg=0b77de8f  digest=1a3a3224
+# Test 42 PASS: msg=b5503a5b  digest=d7ecd7d7
+# Test 43 PASS: msg=dfaae211  digest=55ead1a5
+# Test 44 PASS: msg=1bf4f083  digest=992b13c6
+# Test 45 PASS: msg=7e31960f  digest=2f27a053
+# Test 46 PASS: msg=eca51c62  digest=da703434
+# Test 47 PASS: msg=4c71ee4b  digest=70ff5a88
+# Test 48 PASS: msg=ace6c8aa  digest=8cfcc8b8
+# Test 49 PASS: msg=6379cbe3  digest=4c2fd5ae
+# Test 50 PASS: msg=71c55fdd  digest=ce831fe3
+# Test 51 PASS: msg=4e71b366  digest=04c03e20
+# Test 52 PASS: msg=e5b4025d  digest=47c48255
+# Test 53 PASS: msg=4c9fb025  digest=299e6642
+# Test 54 PASS: msg=ee144e06  digest=d4734913
+# Test 55 PASS: msg=0c9ceadf  digest=32a3fe7a
+# Test 56 PASS: msg=a071263d  digest=6789b767
+# Test 57 PASS: msg=f41fa52d  digest=2e996155
+# Test 58 PASS: msg=78f11110  digest=90594de4
+# Test 59 PASS: msg=6e2a1d6c  digest=a3d3c4a3
+# Test 60 PASS: msg=734e094d  digest=a9b0faa9
+# Test 61 PASS: msg=d6cab7ca  digest=66e6cea6
+# Test 62 PASS: msg=47084cb3  digest=e74b3505
+# Test 63 PASS: msg=0fb71ba6  digest=ffd6aca4
+# Test 64 PASS: msg=feecf6da  digest=ce0efaee
+# ========================================
+# Total tests : 64
+# Passed      : 64
+# Failed      : 0
+# ========================================
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb.v(234)
+#    Time: 657985 ns  Iteration: 0  Instance: /tb_Hash_Generator_file
+# 1
+# Break in NamedBeginStat test_loop at C:/Users/Lenovo/Desktop/CA3/tb.v line 234
+quit -sim
+# End time: 20:36:56 on Dec 02,2025, Elapsed time: 0:12:04
+# Errors: 0, Warnings: 3
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.tb_Hash_Generator_file
+# vsim -gui work.tb_Hash_Generator_file 
+# Start time: 20:37:25 on Dec 02,2025
+# Loading work.tb_Hash_Generator_file
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.OR_2input
+# Loading work.OR_4input
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+add wave -position insertpoint  \
+sim:/tb_Hash_Generator_file/clk \
+sim:/tb_Hash_Generator_file/rst \
+sim:/tb_Hash_Generator_file/start \
+sim:/tb_Hash_Generator_file/message \
+sim:/tb_Hash_Generator_file/digest \
+sim:/tb_Hash_Generator_file/done \
+sim:/tb_Hash_Generator_file/fin_msg \
+sim:/tb_Hash_Generator_file/fin_exp \
+sim:/tb_Hash_Generator_file/fout \
+sim:/tb_Hash_Generator_file/status_msg \
+sim:/tb_Hash_Generator_file/status_exp \
+sim:/tb_Hash_Generator_file/msg_from_file \
+sim:/tb_Hash_Generator_file/exp_digest \
+sim:/tb_Hash_Generator_file/test_id \
+sim:/tb_Hash_Generator_file/pass_cnt \
+sim:/tb_Hash_Generator_file/fail_cnt
+run -all
+# === Starting hash testbench with file vectors ===
+# Test 1 PASS: msg=3761eded  digest=306749d9
+# Test 2 PASS: msg=df01f0b7  digest=405e5ecf
+# Test 3 PASS: msg=275cc00b  digest=63045fab
+# Test 4 PASS: msg=ac7f8ef7  digest=6233a418
+# Test 5 PASS: msg=30d4a98b  digest=04e5b46c
+# Test 6 PASS: msg=3e7de0a7  digest=08059c8c
+# Test 7 PASS: msg=1cca231f  digest=dd261cdd
+# Test 8 PASS: msg=14dbfde5  digest=ce9797ee
+# Test 9 PASS: msg=ddbcbb86  digest=5902dab3
+# Test 10 PASS: msg=ac390aa7  digest=a0dbccae
+# Test 11 PASS: msg=9a394a17  digest=ff8585e0
+# Test 12 PASS: msg=45f8e80a  digest=055d2d23
+# Test 13 PASS: msg=73b3fad7  digest=a3390fc7
+# Test 14 PASS: msg=fe011fdd  digest=4509f57d
+# Test 15 PASS: msg=a2b38da0  digest=1b3a2b25
+# Test 16 PASS: msg=5539e441  digest=a307f5f1
+# Test 17 PASS: msg=da49e5c1  digest=5fe63e07
+# Test 18 PASS: msg=2dfc96a1  digest=d8e2e2e2
+# Test 19 PASS: msg=8c4465b2  digest=5b9d755b
+# Test 20 PASS: msg=c5178e73  digest=82756fd3
+# Test 21 PASS: msg=a61d71fe  digest=2750e48a
+# Test 22 PASS: msg=82690264  digest=f1966c11
+# Test 23 PASS: msg=f0544526  digest=8afbfbf3
+# Test 24 PASS: msg=6813da81  digest=41605f41
+# Test 25 PASS: msg=f1db4a46  digest=18fe8018
+# Test 26 PASS: msg=185a1b35  digest=13736d6d
+# Test 27 PASS: msg=031749d3  digest=d90dd129
+# Test 28 PASS: msg=3659ac4c  digest=51907b6f
+# Test 29 PASS: msg=253ac00d  digest=8f150d0d
+# Test 30 PASS: msg=e493a7d2  digest=8dd9d7a5
+# Test 31 PASS: msg=ad98a2ca  digest=60d48c8c
+# Test 32 PASS: msg=66f66097  digest=5902c672
+# Test 33 PASS: msg=f760dc3c  digest=52e1866a
+# Test 34 PASS: msg=331141c9  digest=a8401910
+# Test 35 PASS: msg=901a206b  digest=fb7f7d41
+# Test 36 PASS: msg=ed5f25f2  digest=3bb2ac43
+# Test 37 PASS: msg=fc981fa1  digest=44eebab2
+# Test 38 PASS: msg=4d9bc43f  digest=b1e2dbc7
+# Test 39 PASS: msg=b0144d28  digest=07423c2f
+# Test 40 PASS: msg=0ef1eb2a  digest=21593e7b
+# Test 41 PASS: msg=0b77de8f  digest=1a3a3224
+# Test 42 PASS: msg=b5503a5b  digest=d7ecd7d7
+# Test 43 PASS: msg=dfaae211  digest=55ead1a5
+# Test 44 PASS: msg=1bf4f083  digest=992b13c6
+# Test 45 PASS: msg=7e31960f  digest=2f27a053
+# Test 46 PASS: msg=eca51c62  digest=da703434
+# Test 47 PASS: msg=4c71ee4b  digest=70ff5a88
+# Test 48 PASS: msg=ace6c8aa  digest=8cfcc8b8
+# Test 49 PASS: msg=6379cbe3  digest=4c2fd5ae
+# Test 50 PASS: msg=71c55fdd  digest=ce831fe3
+# Test 51 PASS: msg=4e71b366  digest=04c03e20
+# Test 52 PASS: msg=e5b4025d  digest=47c48255
+# Test 53 PASS: msg=4c9fb025  digest=299e6642
+# Test 54 PASS: msg=ee144e06  digest=d4734913
+# Test 55 PASS: msg=0c9ceadf  digest=32a3fe7a
+# Test 56 PASS: msg=a071263d  digest=6789b767
+# Test 57 PASS: msg=f41fa52d  digest=2e996155
+# Test 58 PASS: msg=78f11110  digest=90594de4
+# Test 59 PASS: msg=6e2a1d6c  digest=a3d3c4a3
+# Test 60 PASS: msg=734e094d  digest=a9b0faa9
+# Test 61 PASS: msg=d6cab7ca  digest=66e6cea6
+# Test 62 PASS: msg=47084cb3  digest=e74b3505
+# Test 63 PASS: msg=0fb71ba6  digest=ffd6aca4
+# Test 64 PASS: msg=feecf6da  digest=ce0efaee
+# ========================================
+# Total tests : 64
+# Passed      : 64
+# Failed      : 0
+# ========================================
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb.v(234)
+#    Time: 657985 ns  Iteration: 0  Instance: /tb_Hash_Generator_file
+# 1
+# Break in NamedBeginStat test_loop at C:/Users/Lenovo/Desktop/CA3/tb.v line 234
+quit -sim
+# End time: 21:03:30 on Dec 02,2025, Elapsed time: 0:26:05
+# Errors: 0, Warnings: 2
+# Compile of tb_all_modules.v was successful.
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# Compile of tb_all_modules.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.tb_Hash_Generator
+# vsim -gui work.tb_Hash_Generator 
+# Start time: 21:06:50 on Dec 02,2025
+# Loading work.tb_Hash_Generator
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.OR_2input
+# Loading work.OR_4input
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+add wave -position insertpoint  \
+sim:/tb_Hash_Generator/clk \
+sim:/tb_Hash_Generator/rst \
+sim:/tb_Hash_Generator/start \
+sim:/tb_Hash_Generator/message \
+sim:/tb_Hash_Generator/digest \
+sim:/tb_Hash_Generator/done
+run -all
+# 
+# Message Value: df01f0b7
+# 
+# Digest: 405e5ecf
+# 
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb.v(91)
+#    Time: 10345 ns  Iteration: 0  Instance: /tb_Hash_Generator
+# 1
+# Break in Module tb_Hash_Generator at C:/Users/Lenovo/Desktop/CA3/tb.v line 91
+quit -sim
+# End time: 21:09:26 on Dec 02,2025, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 4
+vsim -gui work.tb_AND
+# vsim -gui work.tb_AND 
+# Start time: 21:09:58 on Dec 02,2025
+# Loading work.tb_AND
+# Loading work.AND
+# Loading work.AND_1bit
+# Loading work.c1
+add wave -position insertpoint  \
+sim:/tb_AND/WIDTH \
+sim:/tb_AND/a \
+sim:/tb_AND/b \
+sim:/tb_AND/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(83)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_AND
+# 1
+# Break in Module tb_AND at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 83
+quit -sim
+# End time: 21:11:31 on Dec 02,2025, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_OR
+# vsim -gui work.tb_OR 
+# Start time: 21:11:55 on Dec 02,2025
+# Loading work.tb_OR
+# Loading work.OR
+# Loading work.OR_1bit
+# Loading work.c1
+add wave -position insertpoint  \
+sim:/tb_OR/WIDTH \
+sim:/tb_OR/a \
+sim:/tb_OR/b \
+sim:/tb_OR/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(471)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_OR
+# 1
+# Break in Module tb_OR at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 471
+quit -sim
+vsim -gui work.tb_NOT
+# End time: 21:13:21 on Dec 02,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_NOT 
+# Start time: 21:13:21 on Dec 02,2025
+# Loading work.tb_NOT
+# Loading work.NOT
+# Loading work.NOT_1bit
+# Loading work.c1
+add wave -position insertpoint  \
+sim:/tb_NOT/WIDTH \
+sim:/tb_NOT/a \
+sim:/tb_NOT/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(437)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_NOT
+# 1
+# Break in Module tb_NOT at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 437
+quit -sim
+# End time: 21:14:55 on Dec 02,2025, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_XOR
+# vsim -gui work.tb_XOR 
+# Start time: 21:15:12 on Dec 02,2025
+# Loading work.tb_XOR
+# Loading work.XOR
+# Loading work.XOR_1bit
+# Loading work.c2
+add wave -position insertpoint  \
+sim:/tb_XOR/WIDTH \
+sim:/tb_XOR/a \
+sim:/tb_XOR/b \
+sim:/tb_XOR/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(820)
+#    Time: 50 ps  Iteration: 0  Instance: /tb_XOR
+# 1
+# Break in Module tb_XOR at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 820
+quit -sim
+# End time: 21:15:48 on Dec 02,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_AND4_Nbit
+# vsim -gui work.tb_AND4_Nbit 
+# Start time: 21:16:32 on Dec 02,2025
+# Loading work.tb_AND4_Nbit
+# Loading work.AND4_Nbit
+# Loading work.AND4_1bit
+# Loading work.c2
+add wave -position insertpoint  \
+sim:/tb_AND4_Nbit/N \
+sim:/tb_AND4_Nbit/a \
+sim:/tb_AND4_Nbit/b \
+sim:/tb_AND4_Nbit/c \
+sim:/tb_AND4_Nbit/d \
+sim:/tb_AND4_Nbit/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(123)
+#    Time: 50 ps  Iteration: 0  Instance: /tb_AND4_Nbit
+# 1
+# Break in Module tb_AND4_Nbit at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 123
+quit -sim
+vsim -gui work.tb_MUX2to1
+# End time: 21:17:50 on Dec 02,2025, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_MUX2to1 
+# Start time: 21:17:50 on Dec 02,2025
+# Loading work.tb_MUX2to1
+# Loading work.MUX2to1
+# Loading work.MUX2to1_1bit
+# Loading work.c2
+add wave -position insertpoint  \
+sim:/tb_MUX2to1/WIDTH \
+sim:/tb_MUX2to1/a \
+sim:/tb_MUX2to1/b \
+sim:/tb_MUX2to1/sel \
+sim:/tb_MUX2to1/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(265)
+#    Time: 30 ps  Iteration: 0  Instance: /tb_MUX2to1
+# 1
+# Break in Module tb_MUX2to1 at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 265
+quit -sim
+# End time: 21:18:12 on Dec 02,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_MUX2to1_Bitwise
+# vsim -gui work.tb_MUX2to1_Bitwise 
+# Start time: 21:18:34 on Dec 02,2025
+# Loading work.tb_MUX2to1_Bitwise
+# Loading work.MUX2to1_Bitwise
+# Loading work.MUX2to1_1bit
+# Loading work.c2
+add wave -position insertpoint  \
+sim:/tb_MUX2to1_Bitwise/WIDTH \
+sim:/tb_MUX2to1_Bitwise/a \
+sim:/tb_MUX2to1_Bitwise/b \
+sim:/tb_MUX2to1_Bitwise/sel \
+sim:/tb_MUX2to1_Bitwise/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(307)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_MUX2to1_Bitwise
+# 1
+# Break in Module tb_MUX2to1_Bitwise at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 307
+quit -sim
+# End time: 21:18:58 on Dec 02,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_Counter
+# vsim -gui work.tb_Counter 
+# Start time: 21:19:35 on Dec 02,2025
+# Loading work.tb_Counter
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.AND_1bit
+add wave -position insertpoint  \
+sim:/tb_Counter/WIDTH \
+sim:/tb_Counter/clk \
+sim:/tb_Counter/rst \
+sim:/tb_Counter/en \
+sim:/tb_Counter/iz \
+sim:/tb_Counter/pl \
+sim:/tb_Counter/out \
+sim:/tb_Counter/co \
+sim:/tb_Counter/co2
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(228)
+#    Time: 185 ps  Iteration: 0  Instance: /tb_Counter
+# 1
+# Break in Module tb_Counter at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 228
+restart -f
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(228)
+#    Time: 185 ps  Iteration: 0  Instance: /tb_Counter
+# 1
+# Break in Module tb_Counter at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 228
+quit -sim
+vsim -gui work.tb_Register
+# End time: 21:21:08 on Dec 02,2025, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_Register 
+# Start time: 21:21:08 on Dec 02,2025
+# Loading work.tb_Register
+# Loading work.Register
+# Loading work.Register_1bit
+# Loading work.s2
+# Loading work.FDCP
+add wave -position insertpoint  \
+sim:/tb_Register/WIDTH \
+sim:/tb_Register/clk \
+sim:/tb_Register/rst \
+sim:/tb_Register/Ld \
+sim:/tb_Register/in \
+sim:/tb_Register/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(522)
+#    Time: 55 ps  Iteration: 0  Instance: /tb_Register
+# 1
+# Break in Module tb_Register at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 522
+quit -sim
+# End time: 21:21:32 on Dec 02,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_Register_Merged_MUX
+# vsim -gui work.tb_Register_Merged_MUX 
+# Start time: 21:21:55 on Dec 02,2025
+# Loading work.tb_Register_Merged_MUX
+# Loading work.Register_Merged_MUX
+# Loading work.s2
+# Loading work.FDCP
+add wave -position insertpoint  \
+sim:/tb_Register_Merged_MUX/WIDTH \
+sim:/tb_Register_Merged_MUX/clk \
+sim:/tb_Register_Merged_MUX/rst \
+sim:/tb_Register_Merged_MUX/load \
+sim:/tb_Register_Merged_MUX/sel \
+sim:/tb_Register_Merged_MUX/val_0 \
+sim:/tb_Register_Merged_MUX/val_1 \
+sim:/tb_Register_Merged_MUX/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(583)
+#    Time: 55 ps  Iteration: 0  Instance: /tb_Register_Merged_MUX
+# 1
+# Break in Module tb_Register_Merged_MUX at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 583
+quit -sim
+# End time: 21:22:20 on Dec 02,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_Adder
+# vsim -gui work.tb_Adder 
+# Start time: 21:22:39 on Dec 02,2025
+# Loading work.tb_Adder
+# Loading work.Adder
+# Loading work.Fulladder
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.CarryOut
+add wave -position insertpoint  \
+sim:/tb_Adder/N \
+sim:/tb_Adder/a \
+sim:/tb_Adder/b \
+sim:/tb_Adder/cin \
+sim:/tb_Adder/sum \
+sim:/tb_Adder/cout
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(47)
+#    Time: 50 ps  Iteration: 0  Instance: /tb_Adder
+# 1
+# Break in Module tb_Adder at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 47
+restart -f
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(47)
+#    Time: 50 ps  Iteration: 0  Instance: /tb_Adder
+# 1
+# Break in Module tb_Adder at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 47
+quit -sim
+vsim -gui work.tb_Multiplier_4bit
+# End time: 21:25:17 on Dec 02,2025, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_Multiplier_4bit 
+# Start time: 21:25:17 on Dec 02,2025
+# Loading work.tb_Multiplier_4bit
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.c1
+# Loading work.HalfAdder
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Fulladder
+# Loading work.CarryOut
+add wave -position insertpoint  \
+sim:/tb_Multiplier_4bit/a \
+sim:/tb_Multiplier_4bit/b \
+sim:/tb_Multiplier_4bit/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(161)
+#    Time: 60 ps  Iteration: 0  Instance: /tb_Multiplier_4bit
+# 1
+# Break in Module tb_Multiplier_4bit at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 161
+quit -sim
+# End time: 21:25:42 on Dec 02,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_Left_shift_register
+# vsim -gui work.tb_Left_shift_register 
+# Start time: 21:45:46 on Dec 02,2025
+# Loading work.tb_Left_shift_register
+# Loading work.Left_shift_register
+# Loading work.s2
+# Loading work.FDCP
+add wave -position insertpoint  \
+sim:/tb_Left_shift_register/N \
+sim:/tb_Left_shift_register/clk \
+sim:/tb_Left_shift_register/rst \
+sim:/tb_Left_shift_register/iz \
+sim:/tb_Left_shift_register/en_shift \
+sim:/tb_Left_shift_register/shift_input \
+sim:/tb_Left_shift_register/pl \
+sim:/tb_Left_shift_register/load_val \
+sim:/tb_Left_shift_register/out
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(652)
+#    Time: 95 ps  Iteration: 0  Instance: /tb_Left_shift_register
+# 1
+# Break in Module tb_Left_shift_register at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 652
+quit -sim
+# End time: 21:47:11 on Dec 02,2025, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_Rnd_gen
+# vsim -gui work.tb_Rnd_gen 
+# Start time: 21:47:45 on Dec 02,2025
+# Loading work.tb_Rnd_gen
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Register_1bit
+# Loading work.AND_1bit
+add wave -position insertpoint  \
+sim:/tb_Rnd_gen/clk \
+sim:/tb_Rnd_gen/rst \
+sim:/tb_Rnd_gen/start_rnd \
+sim:/tb_Rnd_gen/input_number \
+sim:/tb_Rnd_gen/done_rnd \
+sim:/tb_Rnd_gen/out_rnd
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(785)
+#    Time: 205 ps  Iteration: 0  Instance: /tb_Rnd_gen
+# 1
+# Break in Module tb_Rnd_gen at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 785
+quit -sim
+# End time: 21:48:31 on Dec 02,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_Hash
+# vsim -gui work.tb_Hash 
+# Start time: 21:48:52 on Dec 02,2025
+# Loading work.tb_Hash
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.OR_2input
+# Loading work.OR_4input
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Counter
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.Register
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.Register_1bit
+# Loading work.MUX3to1_1bit
+add wave -position insertpoint  \
+sim:/tb_Hash/clk \
+sim:/tb_Hash/rst \
+sim:/tb_Hash/start \
+sim:/tb_Hash/message \
+sim:/tb_Hash/done_rnd \
+sim:/tb_Hash/rnd \
+sim:/tb_Hash/digest \
+sim:/tb_Hash/start_rnd \
+sim:/tb_Hash/done \
+sim:/tb_Hash/i
+run -all
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v(731)
+#    Time: 14195 ps  Iteration: 0  Instance: /tb_Hash
+# 1
+# Break in Module tb_Hash at C:/Users/Lenovo/Desktop/CA3/tb_all_modules.v line 731
+quit -sim
+# End time: 21:50:22 on Dec 02,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 1
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# Compile of tb_all_modules.v was successful.
+# Compile of verifyTestBench.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim -gui work.verifyTestBench
+# vsim -gui work.verifyTestBench 
+# Start time: 22:31:22 on Dec 02,2025
+# Loading work.verifyTestBench
+# Loading work.Top
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.OR_2input
+# Loading work.OR_4input
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+add wave -position insertpoint  \
+sim:/verifyTestBench/WIDTH \
+sim:/verifyTestBench/NUM_WORDS \
+sim:/verifyTestBench/ITER \
+sim:/verifyTestBench/NUM_REP \
+sim:/verifyTestBench/MAX_TESTS \
+sim:/verifyTestBench/START \
+sim:/verifyTestBench/clk \
+sim:/verifyTestBench/rst \
+sim:/verifyTestBench/start \
+sim:/verifyTestBench/message \
+sim:/verifyTestBench/digest \
+sim:/verifyTestBench/done \
+sim:/verifyTestBench/outfile \
+sim:/verifyTestBench/logfile \
+sim:/verifyTestBench/reffile \
+sim:/verifyTestBench/infile \
+sim:/verifyTestBench/i \
+sim:/verifyTestBench/msg_val \
+sim:/verifyTestBench/expected \
+sim:/verifyTestBench/ref_msg \
+sim:/verifyTestBench/scan_ret \
+sim:/verifyTestBench/ref_scan \
+sim:/verifyTestBench/ref_exists \
+sim:/verifyTestBench/ref_line \
+sim:/verifyTestBench/ref_len \
+sim:/verifyTestBench/pass_count \
+sim:/verifyTestBench/fail_count
+run -all
+# Processed 0/2 messages (passes=1 fails=0)
+# Verification complete: passed 2 / 2
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/verifyTestBench.v(151)
+#    Time: 4170 ns  Iteration: 0  Instance: /verifyTestBench
+# Break in Module verifyTestBench at C:/Users/Lenovo/Desktop/CA3/verifyTestBench.v line 151
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# Compile of tb_all_modules.v was successful.
+# Compile of verifyTestBench.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.verifyTestBench
+# Loading work.Top
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Processed 0/64 messages (passes=1 fails=0)
+# Verification complete: passed 64 / 64
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/verifyTestBench.v(151)
+#    Time: 133130 ns  Iteration: 0  Instance: /verifyTestBench
+# Break in Module verifyTestBench at C:/Users/Lenovo/Desktop/CA3/verifyTestBench.v line 151
+# Compile of Adder.v was successful.
+# Compile of And.v was successful.
+# Compile of And4inp.v was successful.
+# Compile of Basic_modules.v was successful.
+# Compile of controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX_1bit.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of NOT.v was successful.
+# Compile of OR.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rom.v was successful.
+# Compile of Shift_register.v was successful.
+# Compile of tb.v was successful.
+# Compile of Top.v was successful.
+# Compile of XOR.v was successful.
+# Compile of tb_all_modules.v was successful.
+# Compile of verifyTestBench.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.verifyTestBench
+# Loading work.Top
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.XOR_1bit
+# Loading work.c2
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.NOT_1bit
+# Loading work.c1
+# Loading work.s2
+# Loading work.FDCP
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.Datapath_hash
+# Loading work.Register_Merged_MUX
+# Loading work.MUX2to1_Bitwise
+# Loading work.XOR
+# Loading work.NOT
+# Loading work.OR
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Multiplier_4bit
+# Loading work.AND_1bit
+# Loading work.HalfAdder
+# Loading work.Fulladder
+# Loading work.CarryOut
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.Adder
+# Loading work.Register_1bit
+# Loading work.MUX2to1_1bit
+# Loading work.OR_1bit
+# Loading work.MUX4to1_1bit
+# Loading work.MUX3to1_1bit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Processed 0/64 messages (passes=1 fails=0)
+# Verification complete: passed 64 / 64
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/verifyTestBench.v(151)
+#    Time: 133130 ns  Iteration: 0  Instance: /verifyTestBench
+# Break in Module verifyTestBench at C:/Users/Lenovo/Desktop/CA3/verifyTestBench.v line 151

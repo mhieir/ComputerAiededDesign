@@ -1,0 +1,121 @@
+# Compile of barrel_shifter.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of MUX.v was successful.
+# Compile of register.v was successful.
+# Compile of ROM.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of TB.v was successful.
+# Compile of top.v was successful.
+# Compile of utilities.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb_Hash_Generator
+# vsim -gui work.tb_Hash_Generator 
+# Start time: 13:40:19 on Oct 10,2025
+# Loading work.tb_Hash_Generator
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.Xor
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.Datapath_hash
+# Loading work.MUX2to1
+# Loading work.Not
+# Loading work.Or
+# Loading work.And
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Left_rotate
+# Loading work.Step_array
+# Loading work.Barrel_shifter
+# Loading work.MUX3to1
+# Loading work.Adder
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_Hash_Generator/clk \
+sim:/tb_Hash_Generator/rst \
+sim:/tb_Hash_Generator/start \
+sim:/tb_Hash_Generator/message \
+sim:/tb_Hash_Generator/digest \
+sim:/tb_Hash_Generator/done
+run -all
+# 
+# Message Value: 41a801a8e81df62b14a661b85c97bf45
+# 
+# Digest: 90641ad486cf3291347acdcec6f6c75d
+# 
+# ** Note: $finish    : E:/UNI/term 5/CA1/TB.v(83)
+#    Time: 10185 ns  Iteration: 0  Instance: /tb_Hash_Generator
+# 1
+# Break in Module tb_Hash_Generator at E:/UNI/term 5/CA1/TB.v line 83
+# Compile of barrel_shifter.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v failed with 2 errors.
+# Compile of datapath.v was successful.
+# Compile of MUX.v was successful.
+# Compile of register.v was successful.
+# Compile of ROM.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of TB.v was successful.
+# Compile of top.v was successful.
+# Compile of utilities.v was successful.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of barrel_shifter.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of MUX.v was successful.
+# Compile of register.v was successful.
+# Compile of ROM.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of TB.v was successful.
+# Compile of top.v was successful.
+# Compile of utilities.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_Hash_Generator
+# Loading work.Hash_Generator
+# Loading work.Rnd_gen
+# Loading work.Datapath_rnd_gen
+# Loading work.Xor
+# Loading work.Left_shift_register
+# Loading work.Register
+# Loading work.Counter
+# Loading work.Controller_rnd_gen
+# Loading work.Hash
+# Loading work.Controller_hash
+# Loading work.Datapath_hash
+# Loading work.MUX2to1
+# Loading work.Not
+# Loading work.Or
+# Loading work.And
+# Loading work.MUX4to1
+# Loading work.Rom_file
+# Loading work.Left_rotate
+# Loading work.Step_array
+# Loading work.Barrel_shifter
+# Loading work.MUX3to1
+# Loading work.Adder
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# Message Value: 41a801a8e81df62b14a661b85c97bf45
+# 
+# Digest: c6f6c75d2bbbb9a586cf3291347acdce
+# 
+# ** Note: $finish    : E:/UNI/term 5/CA1/TB.v(83)
+#    Time: 10345 ns  Iteration: 0  Instance: /tb_Hash_Generator
+# 1
+# Break in Module tb_Hash_Generator at E:/UNI/term 5/CA1/TB.v line 83
+quit -sim
+# End time: 14:18:54 on Oct 10,2025, Elapsed time: 0:38:35
+# Errors: 0, Warnings: 1
