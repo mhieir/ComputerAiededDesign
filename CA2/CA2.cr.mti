@@ -1,0 +1,109 @@
+{E:/UNI/term 5/CA2/ShiftRegister.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\ShiftRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftRegister
+
+Top level modules:
+	ShiftRegister
+
+} {} {}} {E:/UNI/term 5/CA2/Register.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {E:/UNI/term 5/CA2/decoder.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} {E:/UNI/term 5/CA2/Multiplier.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\Multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Multiplier
+
+Top level modules:
+	Multiplier
+
+} {} {}} {E:/UNI/term 5/CA2/final_TB.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\final_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_Top_StripesSystem
+
+Top level modules:
+	tb_Top_StripesSystem
+
+} {} {}} {E:/UNI/term 5/CA2/Counter.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} {E:/UNI/term 5/CA2/MUX.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\MUX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2to1
+-- Compiling module MUX3to1
+-- Compiling module MUX_2sel_3to1
+-- Compiling module MUX_3sel_3to1
+
+Top level modules:
+	MUX2to1
+	MUX3to1
+	MUX_2sel_3to1
+	MUX_3sel_3to1
+
+} {} {}} {E:/UNI/term 5/CA2/MultiplicationProcessing.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\MultiplicationProcessing.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MultiplicationProcessing
+
+Top level modules:
+	MultiplicationProcessing
+
+} {} {}} {E:/UNI/term 5/CA2/Controller.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {E:/UNI/term 5/CA2/PE_top.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\PE_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module StripsPE
+
+Top level modules:
+	StripsPE
+
+} {} {}} {E:/UNI/term 5/CA2/DataPath.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\DataPath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPathMultiProc
+
+Top level modules:
+	DataPathMultiProc
+
+} {} {}} {E:/UNI/term 5/CA2/stripe_pe_tb.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\stripe_pe_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_StripsPE
+
+Top level modules:
+	tb_StripsPE
+
+} {} {}} {E:/UNI/term 5/CA2/Adder.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\Adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder4Inp
+-- Compiling module Adder3Inp
+-- Compiling module Adder2Inp
+
+Top level modules:
+	Adder4Inp
+	Adder3Inp
+	Adder2Inp
+
+} {} {}} {E:/UNI/term 5/CA2/Memory.v} {1 {vlog -work work -stats=none {E:\UNI\term 5\CA2\Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}}

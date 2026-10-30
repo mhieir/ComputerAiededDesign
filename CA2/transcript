@@ -1,0 +1,306 @@
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Mul.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.tb_Top_StripesSystem
+# vsim -gui work.tb_Top_StripesSystem 
+# Start time: 00:44:51 on Oct 30,2025
+# Loading work.tb_Top_StripesSystem
+# Loading work.Multiplier
+# Loading work.Memory
+# Loading work.MultiplicationProcessing
+# Loading work.DataPathMultiProc
+# Loading work.Counter
+# Loading work.Decoder
+# Loading work.Register
+# Loading work.ShiftRegister
+# Loading work.Adder2Inp
+# Loading work.MUX_3sel_3to1
+# Loading work.StripsPE
+# Loading work.MUX2to1
+# Loading work.Adder3Inp
+# Loading work.Controller
+# Loading work.MUX_2sel_3to1
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint sim:/tb_Top_StripesSystem/*
+add wave -position insertpoint  \
+sim:/tb_Top_StripesSystem/MP \
+sim:/tb_Top_StripesSystem/W \
+sim:/tb_Top_StripesSystem/WORD_WIDTH \
+sim:/tb_Top_StripesSystem/DEPTH \
+sim:/tb_Top_StripesSystem/ADDR_WIDTH \
+sim:/tb_Top_StripesSystem/MEM_FILE \
+sim:/tb_Top_StripesSystem/clk \
+sim:/tb_Top_StripesSystem/rst \
+sim:/tb_Top_StripesSystem/start \
+sim:/tb_Top_StripesSystem/done
+run -all
+# ** Note: $finish    : E:/UNI/term 5/CA2/final_TB.v(34)
+#    Time: 2295 ns  Iteration: 0  Instance: /tb_Top_StripesSystem
+# 1
+# Break in Module tb_Top_StripesSystem at E:/UNI/term 5/CA2/final_TB.v line 34
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Mul.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_Top_StripesSystem
+# Loading work.Multiplier
+# Loading work.Memory
+# Loading work.MultiplicationProcessing
+# Loading work.DataPathMultiProc
+# Loading work.Counter
+# Loading work.Decoder
+# Loading work.Register
+# Loading work.ShiftRegister
+# Loading work.Adder2Inp
+# Loading work.MUX_3sel_3to1
+# Loading work.StripsPE
+# Loading work.MUX2to1
+# Loading work.Adder3Inp
+# Loading work.Controller
+# Loading work.MUX_2sel_3to1
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $finish    : E:/UNI/term 5/CA2/final_TB.v(34)
+#    Time: 2295 ns  Iteration: 0  Instance: /tb_Top_StripesSystem
+# 1
+# Break in Module tb_Top_StripesSystem at E:/UNI/term 5/CA2/final_TB.v line 34
+quit -sim
+# End time: 00:50:25 on Oct 30,2025, Elapsed time: 0:05:34
+# Errors: 0, Warnings: 1
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Mul.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.tb_Top_StripesSystem
+# vsim -gui work.tb_Top_StripesSystem 
+# Start time: 00:51:01 on Oct 30,2025
+# Loading work.tb_Top_StripesSystem
+# Loading work.Multiplier
+# Loading work.Memory
+# Loading work.MultiplicationProcessing
+# Loading work.DataPathMultiProc
+# Loading work.Counter
+# Loading work.Decoder
+# Loading work.Register
+# Loading work.ShiftRegister
+# Loading work.Adder2Inp
+# Loading work.MUX_3sel_3to1
+# Loading work.StripsPE
+# Loading work.MUX2to1
+# Loading work.Adder3Inp
+# Loading work.Controller
+# Loading work.MUX_2sel_3to1
+add wave -position insertpoint  \
+sim:/tb_Top_StripesSystem/MP \
+sim:/tb_Top_StripesSystem/W \
+sim:/tb_Top_StripesSystem/WORD_WIDTH \
+sim:/tb_Top_StripesSystem/DEPTH \
+sim:/tb_Top_StripesSystem/ADDR_WIDTH \
+sim:/tb_Top_StripesSystem/MEM_FILE \
+sim:/tb_Top_StripesSystem/clk \
+sim:/tb_Top_StripesSystem/rst \
+sim:/tb_Top_StripesSystem/start \
+sim:/tb_Top_StripesSystem/done
+run -all
+# ** Note: $finish    : E:/UNI/term 5/CA2/final_TB.v(34)
+#    Time: 2295 ns  Iteration: 0  Instance: /tb_Top_StripesSystem
+# 1
+# Break in Module tb_Top_StripesSystem at E:/UNI/term 5/CA2/final_TB.v line 34
+quit -sim
+# End time: 00:52:49 on Oct 30,2025, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 2
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v failed with 2 errors.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 14 compiles, 1 failed with 2 errors.
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.tb_Top_StripesSystem
+# vsim -gui work.tb_Top_StripesSystem 
+# Start time: 01:12:33 on Oct 30,2025
+# Loading work.tb_Top_StripesSystem
+# Loading work.Multiplier
+# Loading work.Memory
+# Loading work.MultiplicationProcessing
+# Loading work.DataPathMultiProc
+# Loading work.Counter
+# Loading work.Decoder
+# Loading work.Register
+# Loading work.ShiftRegister
+# Loading work.Adder2Inp
+# Loading work.MUX_3sel_3to1
+# Loading work.StripsPE
+# Loading work.MUX2to1
+# Loading work.Adder3Inp
+# Loading work.Controller
+# Loading work.MUX_2sel_3to1
+add wave -position insertpoint  \
+sim:/tb_Top_StripesSystem/MP \
+sim:/tb_Top_StripesSystem/W \
+sim:/tb_Top_StripesSystem/WORD_WIDTH \
+sim:/tb_Top_StripesSystem/DEPTH \
+sim:/tb_Top_StripesSystem/ADDR_WIDTH \
+sim:/tb_Top_StripesSystem/MEM_FILE \
+sim:/tb_Top_StripesSystem/clk \
+sim:/tb_Top_StripesSystem/rst \
+sim:/tb_Top_StripesSystem/start \
+sim:/tb_Top_StripesSystem/done
+run -all
+# ** Note: $finish    : E:/UNI/term 5/CA2/final_TB.v(34)
+#    Time: 2295 ns  Iteration: 0  Instance: /tb_Top_StripesSystem
+# 1
+# Break in Module tb_Top_StripesSystem at E:/UNI/term 5/CA2/final_TB.v line 34
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_Top_StripesSystem
+# Loading work.Multiplier
+# Loading work.Memory
+# Loading work.MultiplicationProcessing
+# Loading work.DataPathMultiProc
+# Loading work.Counter
+# Loading work.Decoder
+# Loading work.Register
+# Loading work.ShiftRegister
+# Loading work.Adder2Inp
+# Loading work.MUX_3sel_3to1
+# Loading work.StripsPE
+# Loading work.MUX2to1
+# Loading work.Adder3Inp
+# Loading work.Controller
+# Loading work.MUX_2sel_3to1
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $finish    : E:/UNI/term 5/CA2/final_TB.v(34)
+#    Time: 2295 ns  Iteration: 0  Instance: /tb_Top_StripesSystem
+# 1
+# Break in Module tb_Top_StripesSystem at E:/UNI/term 5/CA2/final_TB.v line 34
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of decoder.v was successful.
+# Compile of final_TB.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MultiplicationProcessing.v was successful.
+# Compile of Multiplier.v was successful.
+# Compile of MUX.v was successful.
+# Compile of PE_top.v was successful.
+# Compile of Register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of stripe_pe_tb.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_Top_StripesSystem
+# Loading work.Multiplier
+# Loading work.Memory
+# Loading work.MultiplicationProcessing
+# Loading work.DataPathMultiProc
+# Loading work.Counter
+# Loading work.Decoder
+# Loading work.Register
+# Loading work.ShiftRegister
+# Loading work.Adder2Inp
+# Loading work.MUX_3sel_3to1
+# Loading work.StripsPE
+# Loading work.MUX2to1
+# Loading work.Adder3Inp
+# Loading work.Controller
+# Loading work.MUX_2sel_3to1
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $finish    : E:/UNI/term 5/CA2/final_TB.v(34)
+#    Time: 2295 ns  Iteration: 0  Instance: /tb_Top_StripesSystem
+# 1
+# Break in Module tb_Top_StripesSystem at E:/UNI/term 5/CA2/final_TB.v line 34
+quit -sim

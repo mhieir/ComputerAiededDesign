@@ -1,0 +1,4 @@
+Reference file opened: golden_ref.txt
+Verify run: START=0 MAX_TESTS=64
+Processed 0/64 messages (passes=1 fails=0)
+Verification complete: passed 64 / 64
